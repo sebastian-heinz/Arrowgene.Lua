@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>Arrowgene.Lua.Decompiler</RootNamespace>
+        <Nullable>disable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <NoWarn>CS0162;CS0168;CS0219;CS0414;CS0472;CS0659;CS0661;CS8981</NoWarn>
+        <PackageId>Arrowgene.Lua.Decompiler</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>sebastian-heinz</Authors>
+        <Description>Lua bytecode decompiler supporting Lua 5.0 through 5.5. C# port of unluac.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/sebastian-heinz/Arrowgene.Lua</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/sebastian-heinz/Arrowgene.Lua.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+</Project>
